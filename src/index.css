@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes reveal {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @layer utilities {
+    .animate-reveal {
+      animation: reveal 2s ease-in-out; /* Customize the animation duration and easing as needed */
+    }
+  }
